@@ -4,6 +4,18 @@ from flask import Flask, render_template
 
 app = Flask(__name__)
 
+
+
+@app.route("/")
+def home():
+    return render_template(
+        title=
+        body=
+
+    )
+
+
+
 @app.route("/isaac")
 def issac():
     return render_template("resume_isaac.html")
