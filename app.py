@@ -7,12 +7,15 @@ app = Flask(__name__)
 
 
 @app.route("/")
-def home():
+def Welcomepage():
     return render_template(
         title=
         body=
 
     )
+
+@app.route("/about")
+def projectwriteup():
 
 
 
