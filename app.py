@@ -9,8 +9,6 @@ app = Flask(__name__)
 @app.route("/")
 def Welcomepage():
     return render_template(
-        title=
-        body=
 
     )
 
@@ -35,4 +33,4 @@ def alec():
 def shane():
     return render_template("resume_shane.html")
 
-
+return app
