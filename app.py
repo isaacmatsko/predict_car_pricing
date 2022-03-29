@@ -1,11 +1,12 @@
-# This is a sample Python script.
-
 from flask import Flask, render_template
 
 app = Flask(__name__)
-#this a test
 
+@app.route("/")
+def homepage():
+    return render_template("home.html")
 
+#change homepage.html to the html file in your templates folder
 
 @app.route("/")
 def Welcomepage():
